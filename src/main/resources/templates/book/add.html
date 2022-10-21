@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head th:include="fragment.html :: head('Add Book Page')"></head>
+<body>
+<section th:include="fragment.html :: navbar"></section>
+
+<div class="row">
+    <div class="col-md-6 offset-3">
+        <form method="post">
+            <div class="form-group">
+                <label for="title">Book Title</label>
+                <input type="text" class="form-control" id="title" name="title" placeholder="Kambagal Ota">
+
+            </div>
+            <div class="form-group">
+                <label for="author">Book Author</label>
+                <input type="text" class="form-control" id="author" name="author" placeholder="Men">
+            </div>
+            <div class="form-group">
+                <label for="page">Book Page Count</label>
+                <input type="text" class="form-control" id="page" name="page" placeholder="Men">
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+    </div>
+</div>
+
+
+<section th:include="fragment.html :: js_resourses"></section>
+</body>
+</html>
