@@ -1,4 +1,4 @@
-package uz.jl.springmvc.config;
+package uz.tomcat.springmvc.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

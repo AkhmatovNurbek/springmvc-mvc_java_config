@@ -1,13 +1,8 @@
-package uz.jl.springmvc.domains;
+package uz.tomcat.springmvc.domains;
 
 import lombok.*;
-import uz.jl.springmvc.dto.BookCreateVO;
+import uz.tomcat.springmvc.dto.BookCreateVO;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 04/08/22/12:07 (Thursday)
- * springmvc/IntelliJ IDEA
- */
 
 @Getter
 @Setter

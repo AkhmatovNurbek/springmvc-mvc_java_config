@@ -1,4 +1,4 @@
-package uz.jl.springmvc.config;
+package uz.tomcat.springmvc.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationContext;
@@ -19,7 +19,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 @Configuration
 @EnableWebMvc
 @RequiredArgsConstructor
-@ComponentScan("uz.jl.springmvc.*")
+@ComponentScan("uz.tomcat.springmvc.*")
 public class CustomWebMvcConfigurer implements WebMvcConfigurer {
 
     private final ApplicationContext applicationContext;

@@ -1,12 +1,12 @@
-package uz.jl.springmvc.controllers;
+package uz.tomcat.springmvc.controllers;
 
 import com.github.javafaker.Faker;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import uz.jl.springmvc.domains.Book;
-import uz.jl.springmvc.dto.BookCreateVO;
-import uz.jl.springmvc.dto.BookPageVO;
+import uz.tomcat.springmvc.domains.Book;
+import uz.tomcat.springmvc.dto.BookCreateVO;
+import uz.tomcat.springmvc.dto.BookPageVO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +15,6 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 
 
 @Controller

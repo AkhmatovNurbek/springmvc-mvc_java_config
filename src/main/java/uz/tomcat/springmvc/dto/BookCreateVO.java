@@ -1,12 +1,7 @@
-package uz.jl.springmvc.dto;
+package uz.tomcat.springmvc.dto;
 
 import lombok.*;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 04/08/22/12:08 (Thursday)
- * springmvc/IntelliJ IDEA
- */
 
 @Getter
 @Setter
